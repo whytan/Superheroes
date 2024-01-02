@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['BlackWidow', 'CaptainAmerica', 'Hawkeye', 'Hulk', 'Ironman', 'Thor']
+
+roboflow:
+  workspace: st-xaviers-college-zadwr
+  project: avengers-hero-detection
+  version: 7
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/st-xaviers-college-zadwr/avengers-hero-detection/dataset/7
